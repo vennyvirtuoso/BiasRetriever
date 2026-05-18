@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+.installed.cfg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Model outputs and checkpoints
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Large data files — keep sample files, ignore full datasets
+data/*.json
+data/*.csv
+data/*.tsv
+data/*.pkl
+!data/sample_indic.json
+!data/sample_western.json
+
+# Weights & Biases
+wandb/
+
+# SLURM job outputs
+*.out
+*.err
+slurm-*.out
